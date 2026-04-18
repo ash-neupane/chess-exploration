@@ -127,3 +127,31 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# macOS
+.DS_Store
+
+# Env files
+.env*
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.h5
+*.onnx
+*.safetensors
+
+# Data files
+*.parquet
+*.csv
+*.tsv
+*.feather
+*.arrow
+*.zst
+*.pgn
+data/
+datasets/
+checkpoints/
+models/
